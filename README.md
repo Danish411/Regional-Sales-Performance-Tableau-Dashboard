@@ -3,6 +3,34 @@
 ## 1. Overview
 Developed a dynamic and visually compelling dashboard in Tableau to analyze sales, profit, and order trends across various geographic regions. The project utilizes Tableau's strengths in spatial analysis to quickly identify top-performing and underperforming markets.
 
+## 🖼️ Executive Performance Overview
+This visual represents the final, polished dashboard, designed for executive consumption. It integrates key performance indicators (KPIs) and multiple visualization types (Geo-Map, Bar/Line Charts, Heatmap Tables) to provide holistic insights into:
+
+* **Regional Sales & Profit Distribution**
+* **Year-over-Year (YoY) Performance Trends**
+* **Product Sub-Category Profitability**
+* **Return Rate Analysis**
+
+****
+![Sales and Profit Insights Dashboard](sales_tableau_dashboard_executive_overview.jpg)
+
+---
+
+## 2. Data Preparation and Transformation Flow (Tableau Prep)
+Effective visualization starts with clean, integrated data. This screenshot highlights the complex data preparation pipeline required to merge and clean data sourced from multiple disparate files (e.g., Regional Orders CSVs and Return Reasons Excel files).
+
+* **Key Steps Demonstrated:**
+    * **Multi-Source Ingestion:** Connecting to different file types (CSV, Excel).
+    * **Data Cleaning & Transformation:** Steps like `Clean 2`, `Transformed E`, etc.
+    * **Union/Joining:** Combining regional sales data into a `Combined Tables` node.
+    * **Relationship Mapping:** Joining sales data with `Returns` based on keys.
+    * **Output Creation:** Generating the clean `Results Set` for the Tableau Desktop visualization layer.
+
+****
+![Tableau Prep Data Flow](sales_tableau_dashboard_region_flow.png)
+
+---
+
 ### 🎯 Goal
 To provide sales leadership with an interactive tool to visualize market performance spatially, enabling data-driven decisions regarding regional resource allocation and targeted marketing campaigns.
 
