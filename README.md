@@ -12,7 +12,7 @@ This visual represents the final, polished dashboard, designed for executive con
 * **Return Rate Analysis**
 
 ****
-![Sales and Profit Insights Dashboard](sales_tableau_dashboard_executive_overview.jpg)
+![Sales and Profit Insights Dashboard](sales_tableau_dashboard_executive_overview.png)
 
 ---
 
